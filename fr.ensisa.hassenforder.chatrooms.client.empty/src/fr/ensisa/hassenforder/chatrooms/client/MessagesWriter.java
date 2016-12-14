@@ -8,7 +8,6 @@ public class MessagesWriter extends BasicAbstractWriter {
 
 	public MessagesWriter(OutputStream outputStream) {
 		super (outputStream);
-		System.out.println("test");
 	}
 
 }
