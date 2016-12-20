@@ -25,5 +25,5 @@ public interface Protocol {
 	public static final int RP_ERROR_STRINGFORBIDDEN = 201;
 	public static final int RP_ERROR_MEMORYSPACE = 202;
 	public static final int RP_ERROR_CONNECTION = 203;
-			//TODO
+			
 }
