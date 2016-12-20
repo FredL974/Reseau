@@ -15,6 +15,7 @@ public interface Protocol {
 	public static final int RQ_INVALIDMODERATOR = 5;		//(String roomName, String userName, String message, short int valid)
 	public static final int RQ_POSTMESSAGE = 6;				//(String roomName, String userName, String message, short int valid)
 	public static final int RQ_DISCONNECT = 7;				//(String userName)
+	public static final int RQ_CHANNELSUBSCRIPTIONCHANGE=8; //(String name, String roomName, boolean selected
 	public static final int RP_CREATEROOMOK = 102;			//()
 	public static final int RP_LOADROOMSOK = 103;			//(short int length, Room [] rooms // de la forme {String roomName; short int mode;} )
 	public static final int RQ_VALIDATIONMODERATOR = 104;	//(String roomName, String userName, String message, short int valid) avec valid = 1
